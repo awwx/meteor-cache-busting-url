@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('cache-forever');
-  api.add_files('helper-server.js', 'server');
-  api.add_files('helper-client.js', 'client');
+  api.use('coffeescript', ['client', 'server']);
+  api.add_files('bust-server.coffee', 'server');
+  api.add_files('bust-client.coffee', 'client');
 });
