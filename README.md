@@ -33,7 +33,7 @@ Replace
 
 with
 
-    <img src="{{bustCcache "/image.jpg"}}">
+    <img src="{{bustCache "/image.jpg"}}">
 
 and the template helper will generate a URL such as
 
